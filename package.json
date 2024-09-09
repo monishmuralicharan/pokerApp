@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "cd client && npm start",
+    "build": "cd client && npm run build",
+    "test": "cd client && npm test",
+    "eject": "cd client && npm run eject"
   },
   "keywords": [],
   "author": "",
